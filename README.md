@@ -1,16 +1,22 @@
-# React + Vite
+# Tria Contact List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simplified contact list application built with React, as per the Tria frontend assignment.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Your Vercel Deployment URL Here] (e.g., `https://my-contact-list-abcde.vercel.app/`)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **View Contacts:** Displays a list of contacts with their name, email, and phone number.
+-   **Search Contacts:** Allows searching contacts by name using a search bar. The list updates in real-time as you type.
+-   **Add New Contact (Optional):** Provides a form to add new contacts to the list. (Implemented)
 
-## Expanding the ESLint configuration
+## Technical Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Framework:** React (using Vite for bundling)
+-   **State Management:** React's `useState` and `useEffect` hooks.
+-   **API Interaction:** Mimics an asynchronous API call using JavaScript `Promise` and `setTimeout` for fetching and adding contacts. Data is hardcoded in `src/api/contacts.js`.
+-   **Styling:** Pure CSS (module-based for components).
+
+## Project Structure
